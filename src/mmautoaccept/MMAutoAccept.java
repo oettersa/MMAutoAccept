@@ -15,9 +15,10 @@ import java.util.logging.Logger;
  * 
  * changelog:   1.0 basic functionality
  *              1.1 added global hotkeys
- *              1.2 added minimize and close animations, disabled start if program isn't running, displays resolution on top bar, can't run multiple instances
+ *              1.2 added minimize and close animations, disabled start if program isn't running, displays resolution on top bar, can't run multiple instances (4/25/14)
+ *              1.2.1 fixed dota2.exe changed to dota.exe so that the start is not greyed out (5/25/14)
  * 
- * @version 1.2 April 25, 2014 (added Global HotKeys)
+ * @version 1.2.1 May 25, 2014 (added Global HotKeys)
  * @author Simon Oetter
  */
 public class MMAutoAccept {

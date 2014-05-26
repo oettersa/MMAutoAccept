@@ -339,7 +339,7 @@ public class MMAutoAcceptGUI extends javax.swing.JFrame implements HotkeyListene
     @Override
     public void onHotKey(int aIdentifier) {
         //choose actions based on hotkey identifier
-        //if the the game process is launched, then the buttons are enabled
+        //if the game process is launched, then the buttons are enabled
         if (aIdentifier == 0) {
             try {
                 if(processCheck(processGameID())) {
@@ -573,7 +573,7 @@ public class MMAutoAcceptGUI extends javax.swing.JFrame implements HotkeyListene
             return "csgo.exe";
 
         else
-            return "dota2.exe";
+            return "dota.exe";
     }
     
     //stringworker class so that the loop doesn't run in the EDT
